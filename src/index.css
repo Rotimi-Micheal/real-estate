@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url("./assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.padding {
+  padding-top: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.borderBottom {
+  border-bottom: 0.4px solid white;
+}
+
+.textHeader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 70px;
+  /* or 135% */
+
+  letter-spacing: -1px;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+
+.bug {
+  border: 2px red solid;
+}
+
+.txt {
+  height: 210px;
+  width: 573px;
+  margin-bottom: 50px;
+}
+
+.dropdown {
+  height: 88px;
+  width: 408px;
+  padding: 1rem;
+  margin-left: 23px;
+  background-color: white;
+}
+
+.firstDropdown {
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  height: 58px;
+  width: 128px;
+}
+
+.SecondDropdown {
+  background: #f9f9f9;
+  border: 1px solid #e6e6e6;
+  height: 58px;
+  width: 176px;
+}
+.search {
+  background: #23a6f0;
+  border: 1px solid #e6e6e6;
+  height: 58px;
+  width: 59px;
+}
