@@ -1,4 +1,3 @@
-// import map from "./assets/Rectangle-1.png"
 import map from "../../assets/Rectangle-1.png";
 
 const NavContent = () => {
