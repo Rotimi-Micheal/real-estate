@@ -8,7 +8,7 @@ const Navbar = () => {
     <Fragment>
       <section className="background ">
         <header className="padding ">
-          <div className="flex h-16   borderBottom">
+          <div className="flex h-16  borderBottom">
             <div className=" w-1/3">
               <img className=" " src={logo} />
             </div>
