@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import "./App.css";
+import FormSection from "./components/FormSection/FormSection";
 import FourthSection from "./components/FourthSection/FouthSection";
 import Navbar from "./components/Navbar/NavBar";
 import SecondSection from "./components/Secondsection/SecondSection";
@@ -13,6 +14,7 @@ function App() {
       <SecondSection />
       <ThirdSection />
       <FourthSection />
+      <FormSection />
     </Fragment>
   );
 }

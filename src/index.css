@@ -246,8 +246,8 @@
 
 .secondImage {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 64px;
+  left: 270px;
   width: 270px;
   height: 270px;
   background-image: url("./assets/Image-2.png");
@@ -257,7 +257,7 @@
 
 .thirdImage {
   position: absolute;
-  top: 0;
+  top: 355px;
   left: 0;
   width: 212px;
   height: 285px;
@@ -268,11 +268,54 @@
 
 .fourtImage {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 354px;
+  left: 232px;
   width: 338px;
   height: 356px;
   background-image: url("./assets/image-4.png");
   background-position: center;
   background-size: cover;
+}
+
+.textContent {
+  width: 540px;
+  height: 387px;
+  top: 200px;
+  left: 55%;
+}
+
+.textHeaderfour {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+}
+
+.textpara {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191f;
+  flex: none;
+  flex-grow: 0;
+}
+
+.textBtn {
+  background: #f4511e;
+  border-radius: 13px;
+  width: 185px;
+  height: 63px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
 }
